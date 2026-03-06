@@ -51,4 +51,4 @@ The frontend proxies all `/api/*` requests to the Flask backend on port 5000.
 - The SQLite database is created automatically at `backend/database/vtc_orders.db`
 - Demo data (20 customers, 15 products, 5 orders) is seeded on first run
 - OTP values are printed to the backend console (not sent via SMS)
-- The vite proxy strips the `/api` prefix before forwarding to Flask
+  
